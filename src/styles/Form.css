@@ -1,0 +1,61 @@
+
+.form{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 40rem;
+    height: 100%;
+    padding: 20px;
+    z-index: 2;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.crossSign{
+    cursor: pointer;
+}
+
+
+
+
+.form_Wrapper{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    width: 40%;
+    background-color: white;
+    z-index: 3;
+}
+
+.form_Title{
+    font-size: 25px;
+    font-weight: 300;  
+}
+
+.form{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.form_input{
+    flex:1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+}
+
+.book_button{
+      width: 40%;
+        border: none;
+        padding: 15px 20px;
+        background-color: darkblue;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+}

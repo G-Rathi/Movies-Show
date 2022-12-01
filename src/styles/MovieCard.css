@@ -1,0 +1,45 @@
+.card_container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+span{
+    font-size: 15px;
+    color: rgb(238, 234, 234);
+}
+
+.movieimage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardInfo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.cardInfo .name{
+    color: rgb(238, 234, 234);
+    font-weight: 700;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+.card_container:hover{
+    transform: scale(1.09);
+}
+
+.card_container:hover .cardInfo{
+   display: block;
+}
